@@ -1,0 +1,12 @@
+{
+    "name": "devcontainer-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceMount": "/workspace",
+    "workspaceFolder": "/workspace",
+    "service": "devcontainer",
+    "shutdownAction": "stopCompose",
+    "runArgs": [
+    ],
+    "extensions": [
+    ]
+}
